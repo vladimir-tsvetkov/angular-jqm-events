@@ -1,0 +1,21 @@
+{
+  "name": "angular-jqm-events",
+  "version": "0.0.1",
+  "authors": [
+    "Vladimir Tsvetkov <npacemo@gmail.com>"
+  ],
+  "description": "Expose jquery-mobile touch events as Angular directives.",
+  "main": "jqm-events.js",
+  "keywords": [
+    "jquery",
+    "mobile",
+    "angular",
+    "events",
+    "directives"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery-mobile-config-noauto": "0.0.1",
+    "jquery-mobile-bower": "~1.4.2"
+  }
+}
