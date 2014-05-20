@@ -37,7 +37,7 @@
   }
 
   function createEventDirective(directive, eventType) {
-    angular.module('jqmEvents').directive(directive, ['$parse', function ($parse) {
+    angular.module('jqmEvents', []).directive(directive, ['$parse', function ($parse) {
       return function (scope, element, attrs) {
         var eventHandler = attrs[directive];
         registerEventHandler(scope, $parse, element, eventType, eventHandler);
